@@ -1,0 +1,90 @@
+*{
+  margin:0;padding: 0;
+  font-family: 'montserrat', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
+  align-items:  center;
+  justify-content: center;
+  background-color: #181818;
+}
+
+.hero{
+  max-width: 690px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  background: #fff;
+}
+
+.hero p{
+  font-size: 12px;
+  padding: 10px;
+
+}
+
+.hero div button{
+  width: 40%;
+  padding: 5px;
+  border: none;
+  margin-top: 9px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  background: #181818;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero div button:active{
+  transform: scale(0.9);
+}
+
+.groupy  {
+  border: 2px solid #080808;
+  background: #fccaca;
+}
+
+.groupy .text-input{
+  display: flex;
+}
+
+.text-input .to-text{
+  border-left: 2px solid #080808;
+}
+
+.text-input textarea{
+  resize: none;
+  height: 100px;
+  width: 100%;
+  background: none;
+  border:none;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .titulo{
+    font-size: 1.50rem;
+  }
+  #btn{
+    font-size: 90%;
+  }
+  .hero div button {
+    width: 70%; 
+  }
+
+  .text-input textarea::placeholder {
+    font-size: 13px;
+  }
+}
