@@ -2,6 +2,11 @@
 function realizarAccion() {
     const textoInput = document.getElementById('textoInput').value;
     const opcion = document.getElementById('opcion').value;
+      if (opcion === 'encriptar' && contieneMayusculas(textoInput)) {
+        alert("Por favor, ingresa solo letras minúsculas para encriptar.");
+        return;
+    }
+    
     let resultado = '';
 
     if (opcion === 'encriptar') {
@@ -11,6 +16,10 @@ function realizarAccion() {
     }
 
     document.getElementById('resultado').value = resultado;
+}
+
+function contieneMayusculas(texto) {
+    return /[A-Z]/.test(texto);
 }
 
 function encriptarTexto(texto) {
