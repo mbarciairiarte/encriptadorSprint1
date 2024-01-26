@@ -2,7 +2,7 @@
 function realizarAccion() {
     const textoInput = document.getElementById('textoInput').value;
     const opcion = document.getElementById('opcion').value;
-      if (opcion === 'encriptar' && contieneMayusculas(textoInput)) {
+      if ((opcion === 'encriptar'|| opcion === 'desencriptar') && contieneCaracteresEspeciales(textoInput) || contieneMayusculasOTildes(textoInput))
         alert("Please, use only lowercase letters");
         return;
     }
@@ -18,8 +18,12 @@ function realizarAccion() {
     document.getElementById('resultado').value = resultado;
 }
 
-function contieneMayusculas(texto) {
-    return /[A-Z]/.test(texto);
+function contieneMayusculasOTildes(texto) {
+    return /[A-ZáéíóúÁÉÍÓÚ]/.test(texto);
+}
+
+function contieneCaracteresEspeciales(texto) {
+    return /[!@#$%^&*(),.?":{}|<>]/.test(texto);
 }
 
 function encriptarTexto(texto) {
