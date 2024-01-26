@@ -16,6 +16,12 @@ body{
   background-color: #181818;
 }
 
+#bodyContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .hero{
   max-width: 690px;
   width: 100%;
@@ -69,6 +75,12 @@ body{
   border:none;
   font-size: 18px;
   padding: 10px 15px;
+}
+
+.copyright{
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
 }
 
 
