@@ -3,7 +3,7 @@ function realizarAccion() {
     const textoInput = document.getElementById('textoInput').value;
     const opcion = document.getElementById('opcion').value;
       if (opcion === 'encriptar' && contieneMayusculas(textoInput)) {
-        alert("Por favor, ingresa solo letras minúsculas para encriptar.");
+        alert("Please, use only lowercase letters");
         return;
     }
     
@@ -43,6 +43,6 @@ function copiarAlPortapapeles() {
 
     // Utilizando navigator.clipboard.writeText() para copiar al portapapeles
     navigator.clipboard.writeText(resultadoTexto)
-        .then(() => alert('Texto copiado al portapapeles'))
-        .catch(error => console.error('Error al copiar al portapapeles:', error));
+        .then(() => alert('Text copied to clipboard'))
+        .catch(error => console.error('Error copying to clipboard:', error));
 }
