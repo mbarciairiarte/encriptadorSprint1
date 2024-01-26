@@ -2,7 +2,7 @@
 function realizarAccion() {
     const textoInput = document.getElementById('textoInput').value;
     const opcion = document.getElementById('opcion').value;
-      if ((opcion === 'encriptar'|| opcion === 'desencriptar') && contieneCaracteresEspeciales(textoInput) || contieneMayusculasOTildes(textoInput))
+    if ((opcion === 'encriptar'|| opcion === 'desencriptar') && contieneCaracteresEspeciales(textoInput) || contieneMayusculasOTildes(textoInput)){
         alert("Please, use only lowercase letters");
         return;
     }
