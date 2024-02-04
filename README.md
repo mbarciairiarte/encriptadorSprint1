@@ -33,10 +33,10 @@ It uses the following predefined rules to encrypt and decrypt messages:
 - The encrypted or decrypted message will be displayed in the appropriate area
 
 <h2>Demo</h2>
-You can found a demonstration [here](https://mbarciairiarte.github.io/encriptadorSprint1/)
+You can found a demonstration ![here](https://mbarciairiarte.github.io/encriptadorSprint1/)
 
 <h2>Screenshots</h2>
-![imagen demostracion](https://github.com/mbarciairiarte/encriptadorSprint1/assets/86747763/6eca4211-e301-4058-aa05-ef62c652fcb1)
+![img demostracion](https://github.com/mbarciairiarte/encriptadorSprint1/assets/86747763/6933055f-5bda-46f9-8df1-c5729a269d59)
 
 ![imagen demostracion2](https://github.com/mbarciairiarte/encriptadorSprint1/assets/86747763/ac4743a4-21ee-4f5e-bc2b-e08f776667d8)
 
