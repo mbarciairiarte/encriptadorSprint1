@@ -37,6 +37,7 @@ You can found a demonstration [here](https://mbarciairiarte.github.io/encriptado
 
 <h2>Screenshots</h2>
 ![imagen demostracion](https://github.com/mbarciairiarte/encriptadorSprint1/assets/86747763/6eca4211-e301-4058-aa05-ef62c652fcb1)
+
 ![imagen demostracion2](https://github.com/mbarciairiarte/encriptadorSprint1/assets/86747763/ac4743a4-21ee-4f5e-bc2b-e08f776667d8)
 
 
