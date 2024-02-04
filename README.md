@@ -5,7 +5,6 @@
 Hi! This is my solution for the first Challenge of the Alura's ONE program (Oracle Next Education). This app allows you to encrypt and decrypt messages using specific rules
 
 <h2>Rules</h2>
-
 It uses the following predefined rules to encrypt and decrypt messages:
 
 - The letter "e" is converted to "enter"
@@ -15,7 +14,6 @@ It uses the following predefined rules to encrypt and decrypt messages:
 - The letter "u" is converted to "ufat"
 
 <h2>Characteristics</h2>
-
 - Encrypt messages according to predefined rules
 - Decrypts encrypted messages using the same rules
 - User-friendly interface
@@ -26,7 +24,6 @@ It uses the following predefined rules to encrypt and decrypt messages:
 - Vanilla JavaScript
 
 <h2>How to Use</h2>
-
 - Enter a message in the text field
 - Select Decrypt or Encrypt 
 - Click the "Translate" button to encrypt/decrypt the message
@@ -34,7 +31,6 @@ It uses the following predefined rules to encrypt and decrypt messages:
 
 <h2>Demo</h2>
 You can found a demonstration [here](https://mbarciairiarte.github.io/encriptadorSprint1/)
-
 
 <h2>Screenshots</h2>
 
