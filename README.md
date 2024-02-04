@@ -37,9 +37,12 @@ You can found a demonstration [here](https://mbarciairiarte.github.io/encriptado
 
 
 <h2>Screenshots</h2>
-![img demostracion](https://github.com/mbarciairiarte/encriptadorSprint1/assets/86747763/6933055f-5bda-46f9-8df1-c5729a269d59)
 
 ![imagen demostracion2](https://github.com/mbarciairiarte/encriptadorSprint1/assets/86747763/ac4743a4-21ee-4f5e-bc2b-e08f776667d8)
+
+<h2>Installation</h2>
+It doesn't need to install, just open the HTML file in your browser
+
 
 
 
