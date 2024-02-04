@@ -5,3 +5,11 @@
 Hi! This is my solution for the first Challenge of the Alura's ONE program (Oracle Next Education). This app allows you to encrypt and decrypt messages using specific rules
 
 <h2>Rules</h2>
+
+It uses the following predefined rules to encrypt and decrypt messages:
+
+- The letter "e" is converted to "enter"
+- The letter "i" is converted to "imes"
+- The letter "a" is converted to "ai"
+- The letter "o" is converted to "ober"
+- The letter "u" is converted to "ufat"
