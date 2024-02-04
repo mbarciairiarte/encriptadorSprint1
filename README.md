@@ -13,3 +13,24 @@ It uses the following predefined rules to encrypt and decrypt messages:
 - The letter "a" is converted to "ai"
 - The letter "o" is converted to "ober"
 - The letter "u" is converted to "ufat"
+
+<h2>Characteristics</h2>
+
+- Encrypt messages according to predefined rules
+- Decrypts encrypted messages using the same rules
+- User-friendly interface
+
+<h2>Stack Used</h2>
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+<h2>How to Use</h2>
+
+- Enter a message in the text field
+- Select Decrypt or Encrypt 
+- Click the "Translate" button to encrypt/decrypt the message
+- The encrypted or decrypted message will be displayed in the appropriate area
+
+  <h2>Demo</h2>
+  You can found a demonstration [here]()
